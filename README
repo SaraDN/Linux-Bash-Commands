@@ -1,0 +1,13 @@
+Nucuta Diana 324 CC
+Tema 1 IOCLA
+Timp de lucru: 4 zile (vreo 3 pe valgrind si rmdir)
+
+Am citit cu fgets si am separat cuvintele cu strtok si pentru fiecare caz am folosit un 
+switch.
+Singura schimbare la antetele functiilor este in rmdir, unde am schimbat numele parent
+cu this, pentru ca eu acolo sterg chiar fisierul pe care ma aflu. 
+Ma folosesc in main de un cursor pe care il plimb si asupra caruia aplic functiile.
+Initial am un director home si cursorul pointeaza catre el.
+Pwd am facut-o total recursiva pentru ca ma folosesc de parintele directorului.
+La rmdir am facut un soi de parcurgere in adancime.
+Valgrind nu trece 1 test, e ceva cu string not allocated.
